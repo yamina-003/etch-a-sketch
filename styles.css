@@ -12,6 +12,6 @@
     aspect-ratio: 1/1;
     background-color: #000000;
     /* the width of one div in a 16x16 grid is the width of the container divided by 16 minus the gaps and margins */
-    flex: 1 1 calc(6.25% - 8px);
+    flex: 1 1 auto;
     
 }

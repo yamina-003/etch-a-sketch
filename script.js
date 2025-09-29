@@ -22,6 +22,16 @@ function createGrid(n){
 
 createGrid(16);
 
+const btn = document.querySelector("button");
+btn.addEventListener("click", () =>
+    {
+        numberOfSquares = parseInt(prompt("Enter the number of squares per side :"));
+        console.log(numberOfSquares);
+        container.innerHTML = "";
+        createGrid(numberOfSquares);
+    }
+)
+
 
 
 

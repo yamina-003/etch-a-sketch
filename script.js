@@ -7,5 +7,11 @@ for (let i = 0; i< 256; i++){
     
 }
 
+const squares = document.querySelectorAll(".square");
+squares.forEach(square =>{
+    square.addEventListener("mouseenter", ()=> square.style.backgroundColor = "white");
+    square.addEventListener("mouseleave", ()=> square.style.backgroundColor = "black");
+})
+
 
 

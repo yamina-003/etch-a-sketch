@@ -1,4 +1,5 @@
 .container{
+    width: 960px;
     background-color: blueviolet;
     display: flex;
     gap: 8px;
@@ -8,9 +9,9 @@
 }
 
 .square{
-    width: 100px;
-    height: 100px;
+    aspect-ratio: 1/1;
     background-color: #000000;
+    /* the width of one div in a 16x16 grid is the width of the container divided by 16 minus the gaps and margins */
     flex: 1 1 calc(6.25% - 8px);
     
 }
